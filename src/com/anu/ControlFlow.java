@@ -19,7 +19,7 @@ public class ControlFlow {
         }
 
         // switch-case statements
-        int monthN = 3;
+        int monthN = 6;
         String month = null;
         switch (monthN) {
             case 1:
