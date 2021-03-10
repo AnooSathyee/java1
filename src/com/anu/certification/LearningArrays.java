@@ -1,4 +1,4 @@
-package com.anu;
+package com.anu.certification;
 
 
 public class LearningArrays {
