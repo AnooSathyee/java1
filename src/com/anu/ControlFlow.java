@@ -11,7 +11,6 @@ public class ControlFlow {
         } else {
             System.out.println("I'm not hungry");
         }
-
         int hungerRating = 7;
         if(hungerRating > 5){
             System.out.println("Not Hungry");
