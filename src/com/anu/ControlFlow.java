@@ -36,6 +36,7 @@ public class ControlFlow {
                 break;
         }
         System.out.println(month);
+        System.out.println("happy coding!");
 
     }
 }
