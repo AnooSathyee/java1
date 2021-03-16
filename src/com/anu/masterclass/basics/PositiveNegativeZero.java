@@ -1,4 +1,4 @@
-package com.anu.masterclass;
+package com.anu.masterclass.basics;
 
 public class PositiveNegativeZero {
 
