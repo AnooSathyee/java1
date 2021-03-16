@@ -15,7 +15,7 @@ public class StringLearning {
         String s2 = s1;//"Anu"; //String Constant Pool
         System.out.println(s1.equals((s2)));
         if(s1 == s2){
-            System.out.println("equal");
+            System.out.println("bbbequal");
         } else{
             System.out.println("not equal");
         }
