@@ -11,6 +11,11 @@ public class StringRegex {
         System.out.println(s);
 
         System.out.println(s.replaceAll("\\s", "\\_"));
+
+        String s1 = "Yasodha";
+        //String s = new String("Tummala");
+        String s3 = s1.concat(s);
+        System.out.println(s3);
     }
 
 
