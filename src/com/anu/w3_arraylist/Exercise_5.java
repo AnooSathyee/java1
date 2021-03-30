@@ -16,5 +16,7 @@ public class Exercise_5 {
         colorList.set(2, "grey");
         System.out.println(colorList);
         System.out.println(colorList.size());
+        colorList.remove(3);
+        System.out.println(colorList);
     }
 }
