@@ -1,7 +1,9 @@
 package com.anu.java8;
 
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 import java.time.LocalTime;
+import java.time.format.DateTimeFormatter;
 
 public class DateFeatures {
     public static void main(String[] args) {
@@ -23,6 +25,17 @@ public class DateFeatures {
         System.out.println("Minute >>> " + lt.getMinute());
         System.out.println("Second >>> " + lt.getSecond());
         System.out.println("Nano Second >>> " + lt.getNano());
+
+        //LocalDateTime API
+        LocalDateTime ldt = LocalDateTime.now();
+        System.out.println(ldt);
+
+        // DateTimeFormatter
+        DateTimeFormatter dtf = DateTimeFormatter.ofPattern("MMM DD YYYY");
+        String s = "Jun 21 1979";
+        //LocalDate lld = LocalDate.parse(s,dtf);
+        System.out.println();
+        //System.out.println(lld);
 
     }
 }
