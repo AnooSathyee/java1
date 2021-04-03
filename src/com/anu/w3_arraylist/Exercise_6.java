@@ -6,7 +6,7 @@ import java.util.List;
 public class Exercise_6 {
 
     public static void main(String[] args) {
-        List<String> l1 = new ArrayList<String>();
+        List<String> l1 = new ArrayList<>();
         l1.add("index 1");
         l1.add("index-2");
         l1.add("index-3");
