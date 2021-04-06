@@ -34,7 +34,8 @@ public class DateFeatures {
         DateTimeFormatter dtf = DateTimeFormatter.ofPattern("MMM DD YYYY");
         String s = "Jun 21 1979";
         //LocalDate lld = LocalDate.parse(s,dtf);
-        System.out.println();
+        String format = ld.format(dtf);
+        System.out.println(format);
         //System.out.println(lld);
 
     }
