@@ -15,10 +15,11 @@ public class Exercise_8 {
         list.add("Banana");
         list.add("Cherry");
         list.add("Grapes");
-        System.out.println("List before sorting >>> ");
-        System.out.println(list);
-        Collections.sort(list);
-        System.out.println("List after sorting >>> ");
-        System.out.println(list);
+        list.forEach(System.out::println);
+//        System.out.println("List before sorting >>> ");
+//        System.out.println(list);
+//        Collections.sort(list);
+//        System.out.println("List after sorting >>> ");
+//        System.out.println(list);
     }
 }
