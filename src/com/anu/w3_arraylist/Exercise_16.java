@@ -9,6 +9,11 @@ public class Exercise_16 {
         //clone an arrayList to another ArrayList
         ArrayList<Integer> listOriginal = new ArrayList<Integer>();
         listOriginal.add(10);
+        listOriginal.add(20);
+        listOriginal.add(30);
+        System.out.println("listOriginal >>> " + listOriginal);
+        Object obj = listOriginal.clone();
+        System.out.println("Cloned Object >>> " + obj);
 
     }
 }
