@@ -1,2 +1,6 @@
-package com.anu.challenges;public class Triangle {
+package com.anu.challenges;
+
+public class Triangle {
+
+
 }
