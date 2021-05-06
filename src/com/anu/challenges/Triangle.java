@@ -17,7 +17,7 @@ public class Triangle {
 
 }
 
-class Driver{
+class Driver1{
 
     public static void main(String[] args) {
         Triangle t = new Triangle();
